@@ -62,7 +62,7 @@ margin-top: 10px;
 .sale-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     margin-top: 10px;
 }
@@ -73,7 +73,7 @@ margin-top: 10px;
     border: none;
     margin-top: 20px;
     border-radius: 5px;
-    margin-left: 250px;
+    margin-left: 210px;
  
 }
 
@@ -88,7 +88,7 @@ margin-top: 10px;
 .description{
  color: rgba(39, 39, 39, 0.60);
 text-align: center;
-font-size: 18px;
+font-size: 15px;
 font-weight: 400;
 margin-top: 10px;
 }
@@ -102,4 +102,34 @@ margin-top: 10px;
     gap: 20px;
     margin-top: 20px;
     padding: 10px 20px;
+}
+.deal-container{
+    padding: 10px 5px;
+ margin-left:20px;
+ width:100%;
+height: 300px;
+margin: auto;
+ background-image: url("/Flower Asset/Rectangle 9.png");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-size: 80%;
+}
+.titles{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+.subscript-description{
+    color: rgba(39, 39, 39, 0.60);
+}
+.subscript-title{
+    color: #272727;
+    font-weight: 700;
+}
+input{
+    width: 400px;
+    padding: 10px 10px;
+    margin-top: 40px;
+    border: none;
 }
