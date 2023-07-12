@@ -5,6 +5,7 @@
 body{
     font-family: open sans;
 }
+/*Header section start*/
 .header-container{
     background: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -52,6 +53,13 @@ margin-top: 10px;
     align-items: self-end;
   
 }
+
+/*Header section end*/
+
+/*feature section start */
+.feature-container{
+    margin-top: 40px;
+}
 .flowers{
     display: flex;
     justify-content: center;
@@ -60,7 +68,7 @@ margin-top: 10px;
     padding: 30px 10px;
 }
  .img-flower{
-    border-radius: 300px 300px 0px 0px;
+ border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
 width: 250px;
 height: 350px;
@@ -80,6 +88,9 @@ padding: 30px 5px 0px 5px;
     height: 350px;
     padding: 30px 5px 0px 5px;
 }
+/*feature section end */
+
+/*sale section start */
 .sale-container{
     display: flex;
     width: 100%;
@@ -90,18 +101,16 @@ padding: 30px 5px 0px 5px;
 
 }
 .flower-link{
-    color: #272727;
+ color: #272727;
 text-align: center;
-font-family: Lato;
 font-size: 15px;
-font-style: normal;
 font-weight: 700;
 line-height: 35px;
 text-decoration-line: underline;
 }
 
 .flower-logo-container{
-    border-radius: 8px;
+ border-radius: 8px;
 background: rgba(39, 39, 39, 0.05);
 width: 830px;
 height: 200px;
@@ -179,7 +188,9 @@ font-weight: 600;
     margin-left: 210px;
  
 }
-
+.Instagram-container{
+    margin-top: 40px;
+}
 .title{
  
     color: #272727;
@@ -265,7 +276,7 @@ font-weight: 800;
 
 }
 .footer-description{
-  margin-top: 10px;
+ margin-top: 10px;
  color: rgba(255, 255, 255, 0.90);
 text-align: center;
 font-size: 18px;
